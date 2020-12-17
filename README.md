@@ -2,7 +2,7 @@
 
 ## Bienvenidos
 
-Este repositorio fue creado para evaluar diferentes habilidades entre los postulantes a prácticas I, II y profesionales en [Agro Space](https://agrospace.cl) y [Bloom Aler](https://bloomalert.com) 
+Este repositorio fue creado para evaluar diferentes habilidades entre los postulantes a prácticas I, II y profesionales en [Agro Space](https://agrospace.cl) y [Bloom Alert](https://bloomalert.com) 
 
 A continuación se presentan ciertos ejercicios que evalúan su comprensión en las áreas de:
 
@@ -21,19 +21,21 @@ En este práctico, usted deberá analizar una serie temporal de datos satelitale
 
 ### Capa Raster
 
-![](img/raster.png){width=100%}
+![](img/raster.png)
 ### Capa Vectorial
-![](img/shape.png){width=100%}
+![](img/shape.png)
 La capa vectorial contiene 'geometrias' que tienen asignado un 'Name'. Tales como Punta estero, Laurel o Patagua, entre otros. 
 
-![](img/shape_paddocks.png){width=100%}
+![](img/shape_paddocks.png)
 
 ## Promedio por potrero
-![](img/NDVI_paddock.png){width=100%}
+![](img/NDVI_paddock.png)
 
-![](img/time-series.png){width=100%}
+## time series
+![](img/time-series.png)
 
-![](img/Index_GIF.gif){width=100%}
+## GIF
+![](img/Index_GIF.gif)
 
 
 ## Ejercicio
@@ -54,11 +56,11 @@ La capa vectorial contiene 'geometrias' que tienen asignado un 'Name'. Tales com
 
 ### Consideraciones
  - Tiempo para realizar la entrega: 24 horas 
- - formato: PDF, ppt, jupyter, .md, etc. 
- - Pueden subirlo como branch en el repo o enviar un correo a tomasacuna@ug.uchile.cl
+ - Formato de entrega: PDF, ppt, jupyter, .md, etc. 
+ - Pueden subirlo como branch en el repo o enviar un correo a [tomasacuna@ug.uchile.cl](mailto:tomasacuna@ug.uchile.cl)
  - Complete todos los ejercicios que puda y si necesita m+as tiempo, no hay problema. 
 
-# PD
+# Post-Data
 ## Todo esto lo hacemos automáticamente con el [Dashboard de AgroSpace](https://dash.agrospace.cl)
-![](img/dash-AS.png){width=100%}
+![](img/dash-AS.png)
 
