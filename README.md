@@ -40,7 +40,7 @@ La capa vectorial contiene 'geometrias' que tienen asignado un 'Name'. Tales com
 
 ## Ejercicio
  1) Descargar los datos satelitales (.tif) en la carpeta raster:
-  - [raster.tar.gz][https://github.com/Tartomas/intern-test/tree/main/raster]
+  - [raster.tar.gz](https://github.com/Tartomas/intern-test/tree/main/raster)
   - [.rar en GoogleDrive](https://drive.google.com/file/d/1uSzseg6t0MnjMBQ59ENwQ2qk4h6zABA7/view?usp=sharing)
  2) Extraer las series temporales según el .geojson o .kml
  3) Calcular estadísticas descriptivas, promedios, desviaciones estándar y intercuartiles para cada *potrero*
