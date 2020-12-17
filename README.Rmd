@@ -1,0 +1,38 @@
+# intern-test
+
+## Bienvenidos
+
+Este repositorio fue creado para evaluar diferentes habilidades entre los postulantes a prácticas I, II y profesionales en [Agro Space](https://agrospace.cl) y [Bloom Aler](https://bloomalert.com) 
+
+A continuación se presentan ciertos ejercicios que evalúan su comprensión en las áreas de:
+
+  1. Manipulación de datos satelitales y capas vectoriales 
+  2. Análisis y visualización de datos
+  3. Interpretación de resultados
+  4. Creación de cartografías
+  5. Desarrollo informático general
+  
+## Introducción
+
+La geomática es un área de la ciencia que utiliza objetos espacialmente distruibidos (rasters y vectores) para tomar desiciones en relación su comportamiento en el espacio. La percepción remota y los sistemas de información geográfica (SIG) son dos disciplinas de esta temática que sirven para caracterizar el medio ambiente y otras áreas similares. 
+
+En este práctico, usted deberá analizar una serie temporal de datos satelitales y extraer la información asociada a polígonos o capas vectoriales (.shapefiles o .geojson). Los datos satelitales corresponden a matrices o raster de pixeles, con valores de una variable en espécifico. 
+
+
+## Ejercio
+
+```{r,echo FALSE}
+library(raster)
+rs2 = raster::raster(paste0("raster/", "agrospace_piloto_2020-11-09.tif"))
+plot(rs2)
+```
+
+```{r,echo FALSE}
+plot(rs2)
+shape = sf::st_read(paste0("shape/", "agrospace_piloto.geojson"))
+plot(shape)
+print(shape)
+```
+
+
+que deberán ser completados en 24 horas para su evaluación. 
