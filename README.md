@@ -39,7 +39,9 @@ La capa vectorial contiene 'geometrias' que tienen asignado un 'Name'. Tales com
 
 
 ## Ejercicio
- 1) Descargar los datos satelitales en [raster.tar.gz][raster.tar.gz]
+ 1) Descargar los datos satelitales (.tif) en la carpeta raster:
+  - [raster.tar.gz][https://github.com/Tartomas/intern-test/tree/main/raster]
+  - [.rar en GoogleDrive](https://drive.google.com/file/d/1uSzseg6t0MnjMBQ59ENwQ2qk4h6zABA7/view?usp=sharing)
  2) Extraer las series temporales según el .geojson o .kml
  3) Calcular estadísticas descriptivas, promedios, desviaciones estándar y intercuartiles para cada *potrero*
  4) Graficar el índice NDVI para 2 fechas (las que usted quieras) y determinar que potrero es el más productivo
@@ -47,7 +49,7 @@ La capa vectorial contiene 'geometrias' que tienen asignado un 'Name'. Tales com
  6) Generar una serie temporal de cada potrero
  7) Craer un modelo lineal y un modelo de ML para estimar el NDVI de cada potrero. 
   - Calcular el R2 y RMSE
- 8) Crear una API utilizando [FLASK](https://flask.palletsprojects.com/en/1.1.x/), [PLUMBER](https://www.rplumber.io/), [RestRserve](https://restrserve.org/) o [FastAPI](https://fastapi.tiangolo.com/) o cualquier que sea de su conocimiento. 
+ 8) Crear una REST API utilizando [FLASK](https://flask.palletsprojects.com/en/1.1.x/), [PLUMBER](https://www.rplumber.io/), [RestRserve](https://restrserve.org/) o [FastAPI](https://fastapi.tiangolo.com/) o cualquier que sea de su gusto. 
   - Generar 2 endpoint
     1) visualizar un leaflet del mapa
     2) visualizar la data en formato .json
@@ -58,9 +60,11 @@ La capa vectorial contiene 'geometrias' que tienen asignado un 'Name'. Tales com
  - Tiempo para realizar la entrega: 24 horas 
  - Formato de entrega: PDF, ppt, jupyter, .md, etc. 
  - Pueden subirlo como branch en el repo o enviar un correo a [tomasacuna@ug.uchile.cl](mailto:tomasacuna@ug.uchile.cl)
- - Complete todos los ejercicios que puda y si necesita m+as tiempo, no hay problema. 
+ - Complete todos los ejercicios **que pueda** y si necesita más tiempo, no hay problema. 
 
-# Post-Data
-## Todo esto lo hacemos automáticamente con el [Dashboard de AgroSpace](https://dash.agrospace.cl)
+## ¿Sabía usted?
+
+Todo esto lo hacemos automáticamente con el [Dashboard de AgroSpace](https://dash.agrospace.cl)
+
 ![](img/dash-AS.png)
 
