@@ -21,17 +21,16 @@ En este práctico, usted deberá analizar una serie temporal de datos satelitale
 
 ## Ejercio
 
-```{r,echo FALSE}
+```{r,include=FALSE}
 library(raster)
+shape = sf::st_read(paste0("shape/", "agrospace_piloto.geojson"))
 rs2 = raster::raster(paste0("raster/", "agrospace_piloto_2020-11-09.tif"))
-plot(rs2)
+
 ```
 
-```{r,echo FALSE}
+```{r}
 plot(rs2)
-shape = sf::st_read(paste0("shape/", "agrospace_piloto.geojson"))
 plot(shape)
-print(shape)
 ```
 
 
